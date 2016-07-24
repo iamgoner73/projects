@@ -75,7 +75,7 @@ div.call-button {
   border: 1px solid grey;
 }
 
-header:after, .promo:after, .technics-and-offer:after, .recommend:after, .techTypes:before {
+header:after, .promo:after, .technics-and-offer:after, .recommend:after, .catalog-techTypes:before {
   content: '';
   background-image: url(../image/border.png);
   display: block;
@@ -251,6 +251,7 @@ li.man:before  {
 .offer {
   width: 70%;
 }
+
 table {
   border-spacing:0px 0px;
   width: 700px;
@@ -365,6 +366,7 @@ h2.consult-text {
   font-size: 26px;
   font-weight: normal;
   margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 .catalog-consult-slogan {
@@ -384,8 +386,7 @@ h2.consult-text {
   width: 240px;
   vertical-align: top;
 }
-
-.catalog-consult-btn {
+[class*="-consult-btn"] {
   width: 240px;
   height: 45px;
   margin-top: 40px;
@@ -397,3 +398,202 @@ h2.consult-text {
   font-size: 18px;
   border: none;
 }
+
+/*catalog-TechTypes*/
+
+.catalog-techTypes {
+  font-size: 0;
+  background-color: #f3f3f3;
+}
+
+.catalog-techTypes-menu {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  margin:  30px 20px 0px 0px;
+  font-size: 16px;
+}
+
+.catalog-techTypes-h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.catalog-techTypes-h2:before {
+  content: '';
+  display: inline-block;
+  background-image: url(../image/techTypes.gif);
+  background-repeat: no-repeat;
+  background-position: 0 -2px;
+  vertical-align: middle;
+  width: 30px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+ul.catalog-techTypes-ul {
+  padding-left: 0;
+}
+
+li.catalog-techTypes-li {
+  padding: 10px 0px 10px 0px;
+  list-style-type: none;
+}
+
+.catalog-techTypes-menu-btn {
+  width: 220px;
+  height: 35px;
+  background-color: #354b60;
+  color:white;
+  border:none;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.catalog-techTypes-menu-btn:before {
+  content: '';
+  display: inline-block;
+  background-image: url(../image/download.gif);
+  background-repeat: no-repeat;
+  background-position: 0 -2px;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.catalog-item {
+  display: inline-block;
+  width: 620px;
+  margin: 30px 0px 45px 80px;
+}
+
+.catalog-items {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  margin: 0px 0px 20px 10px;
+  padding: 25px;
+  background-color: white;
+}
+
+.catalog-items-h3 {
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom:25px;
+}
+
+.catalog-items-image {
+  background-image: url(../image/cat315.jpg);
+  width: 240px;
+  height: 160px;
+}
+
+.catalog-items-price {
+  padding-top: 20px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.normal {
+  font-size: 18px;
+}
+
+[class^="catalog-items-btn-"] {
+  display: inline;
+  width: 120px;
+  height: 35px;
+  color: white;
+  font-size: 16px;
+  border:none;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.catalog-items-btn-rent {
+  background-color: #f3c331;
+}
+
+.catalog-items-btn-more {
+  background-color: #354b60;
+}
+
+.catalog-items-nav {
+  text-align: center;
+}
+.catalog-items-nav button {
+  font-size: 14px;
+  display: inline;
+  border:none;
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+.catalog-specOffer {
+  background-image: url(../image/catalogOffer.jpg);
+  background-position: 0px -400px;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.catalog-specOffer-item {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.catalog-specOffer-h1 {
+  margin-top: 40px;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.del {
+  text-decoration: line-through;
+  color:red;
+  padding-right: 15px;
+}
+
+/*CONTACTS*/
+
+.contacts-consult {
+  font-size: 0;
+  background-image: url(../image/promo.jpg);
+  background-position: 0px -700px;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.contacts-consult-text {
+  display: inline-block;
+  width: 700px;
+}
+
+.contacts-consult-text-h2 {
+  display: inline;
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #ffcd34;
+}
+
+.contacts-consult-advice {
+  padding-left: 15px;
+  font-size: 16px;
+  color: white;
+}
+
+.contacts-consult-call {
+  display: inline-block;
+  width: 240px;
+}
+
+.contacts-consult-btn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
