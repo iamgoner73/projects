@@ -75,7 +75,7 @@ div.call-button {
   border: 1px solid grey;
 }
 
-header:after, .promo:after, .technics-and-offer:after, .recommend:after {
+header:after, .promo:after, .technics-and-offer:after, .recommend:after, .techTypes:before {
   content: '';
   background-image: url(../image/border.png);
   display: block;
@@ -351,3 +351,49 @@ footer .call-button a {
   background-color: #202e3b;
 }
 
+/*CATALOG*/
+
+.catalog-consult {
+  background-image: url(../image/promo.jpg);
+  background-position: 0px -600px;
+  background-size:cover;
+  font-size: 0;
+  padding-bottom: 40px;
+}
+
+h2.consult-text {
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.catalog-consult-slogan {
+  font-size:16px;
+  height: 20px;
+  color:white;
+}
+
+.catalog-consult-text {
+  display: inline-block;
+  width: 700px;
+  margin-bottom: 10px;
+}
+
+.catalog-consult-call {
+  display: inline-block;
+  width: 240px;
+  vertical-align: top;
+}
+
+.catalog-consult-btn {
+  width: 240px;
+  height: 45px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #202e3b;
+  background-color: #ffce34;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+}
