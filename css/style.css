@@ -39,11 +39,13 @@
 }
 
 .no-logo {
-  float:right;
+  text-align: right;
 }
 
 .call-button, .main-nav {
-  float:left;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 12px;
 }
 
 .main-nav ul{
@@ -65,19 +67,12 @@
 }
 
 div.call-button {
-  margin-top: 12px;
   padding: 0;
   background-color: #ffe184;
 }
 
 .main-nav a:hover {
   border: 1px solid grey;
-}
-
-.main-nav, .call-button {
-  vertical-align: middle;
-  display: block;
-  padding: 12px;
 }
 
 header:after, .promo:after, .technics-and-offer:after, .recommend:after {
@@ -96,7 +91,7 @@ header:after, .promo:after, .technics-and-offer:after, .recommend:after {
 .promo {
   background-image: url(../image/promo.jpg);
   background-position: 0px -400px;
-  background-size:100%;
+  background-size:cover;
   background-repeat: no-repeat;
 }
 
