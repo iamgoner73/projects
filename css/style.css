@@ -326,13 +326,11 @@ th {
   font-style: italic;
   font-size: 18px;
   color: white;
-  display: block;
 }
 
 
-.recommend span {
+.recommend cite {
   padding-top: 10px;
-  display: block
   font-size: 18px;
   color: #ffce34;
   font-weight: bold;
